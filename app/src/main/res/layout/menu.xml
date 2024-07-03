@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondox6"
+    tools:layout_editor_absoluteX="198dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="31dp"
+            android:text="Frecuencia:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toEndOf="@+id/txt_frec"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="183dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="12dp"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:text="ONDA 2"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txt_bw3"
+            android:layout_width="66dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="(Mhz)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/txt_pot3" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="4dp"
+            android:text="Ancho de Banda:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_bw3"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="44dp"
+            android:text="Potencia:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_pot3"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="28dp"
+            android:text="Frecuencia:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_frec3"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+        <EditText
+            android:id="@+id/txt_pot3"
+            android:layout_width="67dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="(dBm)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/txt_frec3" />
+
+        <EditText
+            android:id="@+id/txt_frec3"
+            android:layout_width="70dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:hint="(Mhz)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView17"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+        <EditText
+            android:id="@+id/txt_bw4"
+            android:layout_width="64dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="17dp"
+            android:ems="10"
+            android:hint="(Mhz)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_pot4" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="9dp"
+            android:text="Ancho de Banda:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_bw4"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="56dp"
+            android:text="Potencia:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_pot4"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <EditText
+            android:id="@+id/txt_pot4"
+            android:layout_width="64dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="17dp"
+            android:ems="10"
+            android:hint="(dBm)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_frec4" />
+
+        <EditText
+            android:id="@+id/txt_frec4"
+            android:layout_width="64dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="17dp"
+            android:ems="10"
+            android:hint="(Mhz)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="42dp"
+            android:text="Frecuencia:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toStartOf="@+id/txt_frec4"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+        <EditText
+            android:id="@+id/txt_frec2"
+            android:layout_width="74dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="13dp"
+            android:ems="10"
+            android:hint="(Mhz)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+        <EditText
+            android:id="@+id/txt_pot2"
+            android:layout_width="74dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="(dBm)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_frec2" />
+
+        <EditText
+            android:id="@+id/txt_bw2"
+            android:layout_width="61dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:ems="10"
+            android:hint="(Mhz)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_pot2" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:text="Ancho de Banda:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toEndOf="@+id/txt_bw"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="33dp"
+            android:text="Potencia"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toEndOf="@+id/txt_pot"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <EditText
+            android:id="@+id/txt_frec"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="(Mhz)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toEndOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+        <EditText
+            android:id="@+id/txt_pot"
+            android:layout_width="69dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:hint="(dBm)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toEndOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/txt_frec" />
+
+        <EditText
+            android:id="@+id/txt_bw"
+            android:layout_width="72dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="9dp"
+            android:ems="10"
+            android:hint="(Mhz)"
+            android:inputType="numberDecimal"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toEndOf="@+id/textView22"
+            app:layout_constraintTop_toBottomOf="@+id/txt_pot" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="38dp"
+            android:text="Ancho de Banda:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="39dp"
+            android:text="Potencia:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="26dp"
+            android:text="Frecuencia:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="186dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="42dp"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:text="ONDA 1"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="184dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:text="ONDA 3"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="192dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="4dp"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:text="ONDA 4"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_bw2" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="76dp"
+            android:onClick="graficar"
+            android:text="Graficar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginBottom="32dp"
+            android:text="Temperatura:"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintBottom_toTopOf="@+id/btn_ok"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/txt_temp"
+            android:layout_width="95dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginBottom="24dp"
+            android:ems="10"
+            android:hint="300° K"
+            android:inputType="number"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintBottom_toTopOf="@+id/btn_ok"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView24" />
+
+        <Spinner
+            android:id="@+id/spnid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="88dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spn2id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spn3id"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="316dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spn4id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="452dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_credi"
+            android:layout_width="94dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="24dp"
+            android:onClick="creditos"
+            android:text="Creditos"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

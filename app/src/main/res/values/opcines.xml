@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="opc">
+        <item>dBm y Mhz</item>
+        <item>dBm y Khz</item>
+        <item>dBm y Hz</item>
+        <item>dBw y Mhz</item>
+        <item>dBw y Khz</item>
+        <item>dBw y Hz</item>
+        <item>dBk y Mhz</item>
+        <item>dBk y Khz</item>
+        <item>dBk y Hz</item>
+
+
+
+    </string-array>
+
+</resources>
